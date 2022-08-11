@@ -24,12 +24,12 @@ import imag16 from "../assets/Nfts/download_142.png"
 import imag17 from "../assets/Nfts/download_143.png"
 
 const Container = styled.div`
-width: 30vw;
+width: 25vw;
 height: 70vh;
 
 img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .swiper{
