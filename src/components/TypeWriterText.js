@@ -66,7 +66,7 @@ const TypeWriterText = () => {
   </Title>
   <SubTitle> Reality is merely an illusion, although a very persistent one </SubTitle>
   <ButtonContainer>
-  <Button text="Take The Red Pill" link="#about"/>
+  <Button text="Learn More" link="#about"/>
   </ButtonContainer>
   </>
   );
