@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
-import { Grid, Pagination } from "swiper";
+import { Grid, Pagination, Autoplay } from "swiper";
 
 import imag1 from "../assets/Nfts/download_95.png"
 import imag2 from "../assets/Nfts/download_96.png"
@@ -29,7 +29,7 @@ height: 70vh;
 
 img {
   width: 100px;
-  height: 100px;
+  height: auto;
 }
 
 .swiper{
@@ -50,15 +50,19 @@ const Carousel = () => {
   return (
     <Container>
       <Swiper
+         autoplay={{
+         delay: 4000,
+          disableOnInteraction: false,
+        }}
         slidesPerView={3}
         grid={{
           rows:4,
         }}
-        spaceBetween={10}
+        spaceBetween={5}
         pagination={{
           clickable: true,
         }}
-        modules={[Grid, Pagination]}
+        modules={[Grid, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide><img src={imag1} alt="The Gaze" ></img></SwiperSlide>

@@ -1190,6 +1190,11 @@
   resolved "https://registry.npmjs.org/@fontsource/sora/-/sora-4.5.9.tgz"
   integrity sha512-NTTzo+or8Z4h7N4clKb4BOG5rj55Mh3A0NLjHQFTWEZ+wYHVNKiW2GuFQU/TRL7q4m+Om0abjZ6YzoFlGgSZZg==
 
+"@fontsource/zen-kaku-gothic-antique@^4.5.13":
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/zen-kaku-gothic-antique/-/zen-kaku-gothic-antique-4.5.13.tgz#8d89806a6e5c53117daf75aa7a80672e9063c59b"
+  integrity sha512-IL81S+f9bvfd7rNLm5V4GVvAFFuaY9n7R63tuzRzs9jvmfK5pIXjihdtM1ef1eLGtH8tzwPRov06ieWnfuoQ7w==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.5.tgz"

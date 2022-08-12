@@ -34,8 +34,6 @@ const Home = () => {
       <Container>
         <Box> <TypeWriterText/> </Box>
         <Box> <CoverVideo/> </Box>
-       
-       
       </Container>
     </Section>
   )

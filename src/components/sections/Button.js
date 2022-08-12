@@ -8,7 +8,7 @@ color: ${props => props.theme.body};
 outline: none;
 border: none;
 
-font-size: ${props => props.theme.fontsm};
+font-size: ${props => props.theme.fontmd};
 padding: 0.9rem 2.3rem;
 border-radius: 50px;
 cursor: pointer;

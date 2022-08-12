@@ -7,6 +7,7 @@
     "@fontsource/rubik-puddles": "^4.5.4",
     "@fontsource/share-tech-mono": "^4.5.9",
     "@fontsource/sora": "^4.5.9",
+    "@fontsource/zen-kaku-gothic-antique": "^4.5.13",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",

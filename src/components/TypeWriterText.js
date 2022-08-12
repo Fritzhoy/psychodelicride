@@ -4,7 +4,6 @@ import Typewriter from "typewriter-effect";
 import Button from './sections/Button';
 
 const Title = styled.h1`
-  
   font-family: "Philosopher", sans-serif;
   font-size: ${(props) => props.theme.fontxxl};
   text-transform: capitalize;
@@ -30,12 +29,13 @@ font-size: ${(props) => props.theme.fontlg};
 text-transform: capitalize;
 color: ${(props) => `rgba(${props.theme.textRgba}, 0.6)`};
 font-weight:600;
-margin-bottom: 1rem;
 width: 80%;
+margin: 1rem; 
 `
 
 const ButtonContainer = styled.div`
 width: 80%;
+margin: 1rem auto;
 `
 
 const TypeWriterText = () => {
@@ -64,9 +64,9 @@ const TypeWriterText = () => {
       }}
     />
   </Title>
-  <SubTitle>Take your bike for a psychedelic ride</SubTitle>
+  <SubTitle> Reality is merely an illusion, although a very persistent one </SubTitle>
   <ButtonContainer>
-  <Button text="Mint Your Dose" link="#about"/>
+  <Button text="Take The Red Pill" link="#about"/>
   </ButtonContainer>
   </>
   );
