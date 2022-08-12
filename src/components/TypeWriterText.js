@@ -5,7 +5,7 @@ import Button from './sections/Button';
 
 const Title = styled.h1`
   font-family: "Philosopher", sans-serif;
-  font-size: ${(props) => props.theme.fontxxl};
+  font-size: 46px;
   text-transform: capitalize;
   width: 80%;
   color: ${(props) => props.theme.text};
